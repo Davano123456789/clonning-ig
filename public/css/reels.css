@@ -1,0 +1,56 @@
+.wrap-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 90vh;
+}
+
+.video video {
+    width: 100%;
+    max-width: 300px; /* Lebar maksimum video */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+.fill-icon a{
+    color: black;
+}
+.fill-icon{
+    text-align: center;
+    margin-left: 1.5rem;
+}
+.fill-icon i{
+    font-size: 1.5rem;
+}
+.icon-reels{
+    margin-top: 10rem;
+}
+.video{
+    position: relative;
+}
+.wrap-user{
+    position: absolute;
+    top: 390px;
+    right:70px;
+    align-items: center;
+    display: flex;
+    gap: 0.7rem;
+ 
+}
+.wrap-user p{
+    margin-top: 10px;
+    font-weight: 500;
+    color: white;
+}
+.wrap-user img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.wrap-user a{
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    padding: 0.3rem 0.5rem;
+    border: 1px solid white;
+}
